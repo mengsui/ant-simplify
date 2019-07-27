@@ -32,9 +32,11 @@ const UserLayout = props => {
       })}
     >
       <div className={styles.container}>
-        <div className={styles.lang}>
-          <SelectLang />
-        </div>
+        {/* 国际化的小球
+          <div className={styles.lang}>
+            <SelectLang />
+          </div>
+        */}
         <div className={styles.content}>
           <div className={styles.top}>
             <div className={styles.header}>

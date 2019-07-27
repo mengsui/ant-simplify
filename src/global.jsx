@@ -58,18 +58,23 @@ if (pwa) {
           reloadSW();
         }}
       >
-        {formatMessage({
+        {/*formatMessage({
           id: 'app.pwa.serviceworker.updated.ok',
-        })}
+        })*/}
+        {
+          'app.pwa.serviceworker.updated.ok'
+        }
       </Button>
     );
     notification.open({
-      message: formatMessage({
-        id: 'app.pwa.serviceworker.updated',
-      }),
-      description: formatMessage({
-        id: 'app.pwa.serviceworker.updated.hint',
-      }),
+      // message: formatMessage({
+      //   id: 'app.pwa.serviceworker.updated',
+      // }),
+      // description: formatMessage({
+      //   id: 'app.pwa.serviceworker.updated.hint',
+      // }),
+      message: 'app.pwa.serviceworker.updated',
+      description: 'app.pwa.serviceworker.updated.hint',
       btn,
       key,
       onClose: async () => {},

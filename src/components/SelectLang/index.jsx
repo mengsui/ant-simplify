@@ -41,9 +41,10 @@ const SelectLang = props => {
       <span className={classNames(styles.dropDown, className)}>
         <Icon
           type="global"
-          title={formatMessage({
-            id: 'navBar.lang',
-          })}
+          // title={formatMessage({
+          //   id: 'navBar.lang',
+          // })}
+          title='navBar.lang'
         />
       </span>
     </HeaderDropdown>

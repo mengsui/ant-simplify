@@ -9,6 +9,7 @@ export default {
   colorWeak: false,
   menu: {
     locale: true,
+    enableLocale: false,
   },
   title: 'Ant Design Pro',
   pwa: false,

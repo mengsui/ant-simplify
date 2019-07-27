@@ -1,57 +1,13 @@
-# Ant Design Pro
+# 整理
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+1、注释国际化方法。
+2、删除“ANT_DESIGN_PRO_ONLY_DO_NOT_USE_IN_YOUR_PRODUCTION”环境变量
+3、区分开发环境和生产环境
+  package.json 里面 直接执行
+> yarn start 
+  是开发环境接口使用的域名。
 
-## Environment Prepare
+> yarn build 
+  是生产环境接口使用的域名。
 
-Install `node_modules`:
-
-```bash
-npm install
-```
-
-or
-
-```bash
-yarn
-```
-
-## Provided Scripts
-
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
-
-Scripts provided in `package.json`. It's safe to modify or add additional script:
-
-### Start project
-
-```bash
-npm start
-```
-
-### Build project
-
-```bash
-npm run build
-```
-
-### Check code style
-
-```bash
-npm run lint
-```
-
-You can also use script to auto fix some lint error:
-
-```bash
-npm run lint:fix
-```
-
-### Test code
-
-```bash
-npm test
-```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
+4、login目前只是把样式搬过来了。

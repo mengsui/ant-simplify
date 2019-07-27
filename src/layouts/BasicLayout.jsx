@@ -89,10 +89,11 @@ const BasicLayout = props => {
       breadcrumbRender={(routers = []) => [
         {
           path: '/',
-          breadcrumbName: formatMessage({
-            id: 'menu.home',
-            defaultMessage: 'Home',
-          }),
+          // breadcrumbName: formatMessage({
+          //   id: 'menu.home',
+          //   defaultMessage: 'Home',
+          // }),
+          breadcrumbName: 'menu.home',
         },
         ...routers,
       ]}
